@@ -46,11 +46,7 @@ public class Product implements Serializable {
 
 	@NonNull
 	private Boolean stockavailable;
-	
-	 @NonNull
-	 @Lob 
-	  private byte[] image;
-	 
+		 
 	public Product()
 	{
 	   System.out.println("Product 0-Arg Constructor");   
